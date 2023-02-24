@@ -20,7 +20,38 @@
 </head>
 <body>
     <div class="wrapper">
-
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a message to Example Cafe</p>
+        <label> Your email 
+            <input type= "email" name="email"  >
+        </label>
+        <br>
+        <br>
+        
+        <div class="container_swap">
+            <div class="div_left">Message</div>
+            <div class="div_right"> 
+                <textarea name="message" rows="10" cols="60" ></textarea>  </textarea>
+            </div>
+            <div class="howdid">
+                <label>
+                    How did you hear of us?
+                <select name="how did you hear of us?" id="how did you hear of us?">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                </select>
+                </label>
+            </div>     
+            <br>
+            <div class="foot">
+                <div class="Ensure">
+                    Newsletter
+                    <input type="checkbox" id="Newsletter" name="Newsletter" > Ensure this box is checked if you would like to receive email updates
+                </div>
+                <br>
+                <button type="button" onclick="alert('Send message') ">Send message</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

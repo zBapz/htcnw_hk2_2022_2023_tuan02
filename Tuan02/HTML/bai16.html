@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <!-- <style>
         *{
             padding: 0px;
             margin: 0px auto;
@@ -16,11 +16,89 @@
             background-color: antiquewhite;
             box-sizing: border-box;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <div class="wrapper">
-
+        <div>
+            <form action="" id="form6">
+                <h1><b>Travel reservation form</b></h1>
+                <h3>* denotes mandotory</h3>
+                <table>
+                    <tr>
+                        <td><label for="full_name">Full Name*:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="full_name" id="full_name" placeholder="FirstName LastName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email_address">Email address*:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="Email_address" id="Email_address" placeholder="EMAIL_ADDRESS"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="select_tour">Select tour Package*:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="select_tour" id="select_tour">
+                                <option value="" selected>Goa</option>
+                                <option value="">Btom</option>
+                                <option value="">Binh</option>
+                                <option value="">Tom</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Arrival_date">Arrival date*:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="Arrival_date" id="Arrival_date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Numbers of persons*">Numbers of persons*:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="Numbers of persons" id="Numbers of persons" placeholder="UNKNOWN_TYPE"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="questions_form6">What would you want to avail?*</label></td>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td><label for="answer_form6">Boarding</label></td>
+                                <td><input type="checkbox" name="answer_form6" id="answer_form6"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="answer_form6">Fooding</label></td>
+                                <td><input type="checkbox" name="answer_form6" id="answer_form6"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="answer_form6">Sight seeing</label></td>
+                                <td><input type="checkbox" name="answer_form6" id="answer_form6"></td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <td><label for="Discount">Discount Coupon code:</label></td><br>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="Discount" id="Discount" placeholder="UNKNOWN_TYPE"></td><br>
+                    </tr>
+    
+                    <tr>
+                        <td><label for="term">Terms and conditions*</label></td><br>
+                    </tr>             
+                        <input type="radio" value="I agree">I agree
+                        <input type="radio" value="I disagree">I disagree
+                    <br>     
+                    <tr>
+                        <td><input type="button" value="Competition reservation"></td>
+                    </tr>
+                </table>
+            </form>
     </div>
 </body>
 </html>
